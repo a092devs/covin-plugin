@@ -1,0 +1,2 @@
+covid>=2.1.0
+covid_india
