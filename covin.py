@@ -12,7 +12,7 @@ total = f"{'total'}: %(Total)s"
 cured = f"{'cured'}: %(Cured)s"
 death = f"{'death'}: %(Death)s"
 
-active_case = sum("(total) - (cured) + (death)")
+active_case = "(total) - (cured) + (death)"
 
 cov_str = f"""`{'Confirmed':<9}:` **%(Total)s**
 `{'Active':<9}:` **{active_case}**
