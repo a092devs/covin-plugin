@@ -7,7 +7,12 @@ from userbot.utils.events import NewMessage
 plugin_category = "pandemic"
 
 # Defining Active Cases
-active_case = sum("%(Total)s - %(Cured)s + %(Death)s")
+
+total = f"{'total'}: %(Total)s"
+cured = f"{'cured'}: %(Cured)s"
+death = f"{'death'}: %(Death)s"
+
+active_case = sum("(total) - (cured) + (death)")
 
 cov_str = f"""`{'Confirmed':<9}:` **%(Total)s**
 `{'Active':<9}:` **{active_case}**
