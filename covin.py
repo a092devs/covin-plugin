@@ -8,14 +8,14 @@ plugin_category = "pandemic"
 
 # Defining Active Cases
 
-total = f"{'total'}: %(Total)s"
-cured = f"{'cured'}: %(Cured)s"
-death = f"{'death'}: %(Death)s"
+total = "%(Total)s"
+cured = "%(Cured)s"
+death = "%(Death)s"
 
-active_case = "(total) - (cured) + (death)"
+active_case = "total - cured + death"
 
 cov_str = f"""`{'Confirmed':<9}:` **%(Total)s**
-`{'Active':<9}:` **{active_case}**
+`{'Active':<9}:` **(active_case)**
 `{'Recovered':<9}:`  **%(Cured)s**
 `{'Deaths':<9}:`  **%(Death)s**"""
 
