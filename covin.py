@@ -15,7 +15,7 @@ death = "%(Death)s"
 active_case = "total - cured + death"
 
 cov_str = f"""`{'Confirmed':<9}:` **%(Total)s**
-`{'Active':<9}:` **(active_case)**
+`{'Active':<9}:` **{active_case}**
 `{'Recovered':<9}:`  **%(Cured)s**
 `{'Deaths':<9}:`  **%(Death)s**"""
 
