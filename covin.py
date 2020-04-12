@@ -10,7 +10,7 @@ plugin_category = "pandemic"
 active_case = f"{'Act':<9} = %(Total)s - %(Cured)s + %(Death)s"
 
 cov_str = f"""`{'Confirmed':<9}:` **%(Total)s**
-`{'Active':<9}:` **active_case**
+`{'Active':<9}:` **{active_case}**
 `{'Recovered':<9}:`  **%(Cured)s**
 `{'Deaths':<9}:`  **%(Death)s**"""
 
